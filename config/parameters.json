@@ -1,0 +1,201 @@
+{
+  "parameters": {
+    "subject": {
+      "description": "The academic subject area",
+      "examples": [
+        "Mathematics",
+        "English Language",
+        "English Literature",
+        "Science",
+        "Biology",
+        "Chemistry",
+        "Physics",
+        "History",
+        "Geography",
+        "Modern Foreign Languages",
+        "French",
+        "Spanish",
+        "German",
+        "Art and Design",
+        "Music",
+        "Drama",
+        "Physical Education",
+        "Religious Studies",
+        "Computer Science",
+        "Design and Technology",
+        "Business Studies",
+        "Economics",
+        "Psychology",
+        "Sociology",
+        "Philosophy"
+      ],
+      "placeholder": "[SUBJECT]"
+    },
+    "year_group": {
+      "description": "The year group or key stage",
+      "examples": [
+        "Year 7",
+        "Year 8",
+        "Year 9",
+        "Year 10",
+        "Year 11",
+        "Year 12",
+        "Year 13",
+        "Key Stage 3",
+        "Key Stage 4",
+        "Key Stage 5",
+        "GCSE",
+        "A-Level",
+        "IB Diploma"
+      ],
+      "placeholder": "[YEAR_GROUP]"
+    },
+    "exam_board": {
+      "description": "The examination board or awarding body",
+      "examples": [
+        "AQA",
+        "Edexcel",
+        "OCR",
+        "WJEC",
+        "Eduqas",
+        "Cambridge International",
+        "IB",
+        "SQA",
+        "CCEA",
+        "Pearson"
+      ],
+      "placeholder": "[EXAM_BOARD]"
+    },
+    "ability_level": {
+      "description": "The general ability level of the target audience",
+      "examples": [
+        "Foundation",
+        "Core",
+        "Higher",
+        "Mixed ability",
+        "Lower ability",
+        "Middle ability",
+        "Higher ability",
+        "Gifted and Talented",
+        "SEN Support"
+      ],
+      "placeholder": "[ABILITY_LEVEL]"
+    },
+    "target_grade": {
+      "description": "The target grade or level students are working towards",
+      "examples": [
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade A*",
+        "Grade A",
+        "Grade B",
+        "Grade C",
+        "Level 1",
+        "Level 2",
+        "Level 3"
+      ],
+      "placeholder": "[TARGET_GRADE]"
+    },
+    "neurodivergence": {
+      "description": "Specific neurodivergent needs to consider",
+      "examples": [
+        "ADHD",
+        "Autism/ASD",
+        "Dyslexia",
+        "Dyspraxia",
+        "Dyscalculia",
+        "Dysgraphia",
+        "Tourette's Syndrome",
+        "Sensory Processing Differences",
+        "Executive Function Difficulties",
+        "Working Memory Difficulties",
+        "Processing Speed Differences",
+        "Multiple/Combined"
+      ],
+      "placeholder": "[NEURODIVERGENCE]",
+      "accommodations": {
+        "ADHD": [
+          "Break tasks into smaller chunks",
+          "Use timers and visual schedules",
+          "Provide movement breaks",
+          "Minimise distractions",
+          "Use checklists and organisers",
+          "Offer choice in activities"
+        ],
+        "Autism/ASD": [
+          "Provide clear, explicit instructions",
+          "Use visual supports and schedules",
+          "Prepare for transitions",
+          "Reduce sensory overload",
+          "Be literal and specific",
+          "Allow processing time"
+        ],
+        "Dyslexia": [
+          "Use dyslexia-friendly fonts",
+          "Provide audio alternatives",
+          "Use coloured overlays/backgrounds",
+          "Allow extra time",
+          "Chunk text into smaller sections",
+          "Use bullet points over paragraphs"
+        ],
+        "Dyspraxia": [
+          "Provide printed notes",
+          "Allow alternatives to handwriting",
+          "Break down motor tasks",
+          "Use organisational aids",
+          "Allow extra time for written work"
+        ],
+        "Dyscalculia": [
+          "Use concrete manipulatives",
+          "Provide visual representations",
+          "Allow calculator use",
+          "Use graph paper for alignment",
+          "Break down multi-step problems"
+        ]
+      }
+    },
+    "topic": {
+      "description": "The specific topic within the subject",
+      "placeholder": "[TOPIC]"
+    },
+    "learning_objectives": {
+      "description": "What students should learn or be able to do",
+      "placeholder": "[LEARNING_OBJECTIVES]"
+    },
+    "time_available": {
+      "description": "Duration of the lesson or activity",
+      "examples": [
+        "30 minutes",
+        "45 minutes",
+        "1 hour",
+        "Double period",
+        "Half term project"
+      ],
+      "placeholder": "[TIME_AVAILABLE]"
+    },
+    "class_size": {
+      "description": "Number of students in the class",
+      "placeholder": "[CLASS_SIZE]"
+    },
+    "resources_available": {
+      "description": "Available teaching resources and technology",
+      "examples": [
+        "Textbooks only",
+        "Interactive whiteboard",
+        "1:1 devices",
+        "Shared devices",
+        "Science lab",
+        "Computer room",
+        "Limited resources"
+      ],
+      "placeholder": "[RESOURCES_AVAILABLE]"
+    }
+  }
+}
